@@ -39,7 +39,7 @@ namespace EX_1
             }
             public string PrintMessage()
             {
-                // Добавлены сразу два условия проверки для наглядности работы двух методов
+                
                 return isValidRegex() == true && isValidRegex() == true
                     ? $"\nОтлично! Ваш логин: {this.login} валиден :D"
                     : $"\nУпс :( Ошибка валидации!" +
